@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-# kedro_suml documentation build
+# carpriceprediction documentation build
 # configuration file, created by sphinx-quickstart.
 #
 # This file is execfile()d with the current directory set to its
@@ -21,11 +21,11 @@
 import re
 
 from kedro.framework.cli.utils import find_stylesheets
-from kedro_suml import __version__ as release
+from carpriceprediction import __version__ as release
 
 # -- Project information -----------------------------------------------------
 
-project = "kedro_suml"
+project = "carpriceprediction"
 author = "Kedro"
 
 # The short X.Y version.
@@ -121,7 +121,7 @@ html_show_copyright = False
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "kedro_sumldoc"
+htmlhelp_basename = "carpricepredictiondoc"
 
 # -- Options for LaTeX output ------------------------------------------------
 
@@ -149,8 +149,8 @@ latex_elements = {
 latex_documents = [
     (
         master_doc,
-        "kedro_suml.tex",
-        "kedro_suml Documentation",
+        "carpriceprediction.tex",
+        "carpriceprediction Documentation",
         "Kedro",
         "manual",
     )
@@ -163,8 +163,8 @@ latex_documents = [
 man_pages = [
     (
         master_doc,
-        "kedro_suml",
-        "kedro_suml Documentation",
+        "carpriceprediction",
+        "carpriceprediction Documentation",
         [author],
         1,
     )
@@ -178,11 +178,11 @@ man_pages = [
 texinfo_documents = [
     (
         master_doc,
-        "kedro_suml",
-        "kedro_suml Documentation",
+        "carpriceprediction",
+        "carpriceprediction Documentation",
         author,
-        "kedro_suml",
-        "Project kedro_suml codebase.",
+        "carpriceprediction",
+        "Project carpriceprediction codebase.",
         "Data-Science",
     )
 ]

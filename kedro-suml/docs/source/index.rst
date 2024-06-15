@@ -1,8 +1,8 @@
-.. kedro_suml documentation master file, created by sphinx-quickstart.
+.. carpriceprediction documentation master file, created by sphinx-quickstart.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to project kedro_suml's API docs!
+Welcome to project carpriceprediction's API docs!
 =============================================
 
 .. toctree::
