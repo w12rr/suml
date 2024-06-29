@@ -39,6 +39,7 @@ def train_model(X_train: pd.DataFrame, y_train: pd.Series, parameters: Dict) -> 
     param_grid = parameters["param_grid"]
     grid_search = GridSearchCV(regressor, param_grid, cv=parameters["cv"], scoring='r2')
     grid_search.fit(X_train, y_train)
+    print(grid_search.best_params_)
     best_model = grid_search.best_estimator_
     return best_model
 
