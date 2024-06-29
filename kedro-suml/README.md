@@ -1,8 +1,8 @@
-# kedro-suml
+# carPricePrediction
 
 ## Overview
 
-This is your new Kedro project with Kedro-Viz and PySpark setup, which was generated using `kedro 0.19.5`.
+This is your new Kedro project with Kedro-Viz and PySpark setup, which was generated using `kedro 0.19.6`.
 
 Take a look at the [Kedro documentation](https://docs.kedro.org) to get started.
 

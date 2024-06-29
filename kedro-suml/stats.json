@@ -1,1 +1,1 @@
-{"car_sale_dataset": {"rows": 1501, "columns": 25, "file_size": 1121530}, "preprocess_car_sale_data": {"rows": 1501, "columns": 18, "file_size": 37107}, "train_data": {"rows": 1200, "columns": 18}, "test_data": {"rows": 301, "columns": 17}}
+{"car_sale_dataset": {"rows": 1501, "columns": 25, "file_size": 1121530}, "preprocess_car_sale_data": {"rows": 716, "columns": 18, "file_size": 29311}, "X_train": {"rows": 572, "columns": 17}, "X_test": {"rows": 144, "columns": 17}}

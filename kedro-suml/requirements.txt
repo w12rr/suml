@@ -26,7 +26,6 @@ isort~=5.0
 jupyter~=1.0
 jupyterlab_server>=2.11.1, <2.16.0
 nbstripout~=0.4
-# Pin problematic traitlets release - https://github.com/jupyter/notebook/issues/7048
 traitlets<5.10.0
 streamlit
 pyspark

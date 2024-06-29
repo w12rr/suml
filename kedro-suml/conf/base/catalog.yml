@@ -9,7 +9,7 @@ preprocess_car_sale_data:
     versioned: false
 
 
-autoML_predictor:
+regressor:
   type: pickle.PickleDataset
-  filepath: data/06_models/autoML_model.pickle
+  filepath: data/06_models/regressor.pickle
   versioned: false

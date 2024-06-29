@@ -3,12 +3,12 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "kedro_suml"
+name = "carpriceprediction"
 readme = "README.md"
 dynamic = ["dependencies", "version"]
 
 [project.scripts]
-kedro-suml = "kedro_suml.__main__:main"
+carpriceprediction = "carpriceprediction.__main__:main"
 
 [project.entry-points."kedro.hooks"]
 
@@ -27,24 +27,24 @@ docs = [
 
 [tool.setuptools.dynamic]
 dependencies = {file = "requirements.txt"}
-version = {attr = "kedro_suml.__version__"}
+version = {attr = "carpriceprediction.__version__"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
 namespaces = false
 
 [tool.kedro]
-package_name = "kedro_suml"
-project_name = "kedro-suml"
-kedro_init_version = "0.19.5"
+package_name = "carpriceprediction"
+project_name = "carPricePrediction"
+kedro_init_version = "0.19.6"
 tools = ['Linting', 'Testing', 'Custom Logging', 'Documentation', 'Data Structure', 'PySpark', 'Kedro Viz']
-example_pipeline = "True"
+example_pipeline = "False"
 source_dir = "src"
 
 [tool.pytest.ini_options]
 addopts = """
 --cov-report term-missing \
---cov src/kedro_suml -ra"""
+--cov src/carpriceprediction -ra"""
 
 [tool.coverage.report]
 fail_under = 0

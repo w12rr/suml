@@ -1,5 +1,25 @@
-# This is a boilerplate parameters config generated for pipeline 'data_science'
-# using Kedro 0.19.6.
-#
-# Documentation for this file format can be found in "Parameters"
-# Link: https://docs.kedro.org/en/0.19.6/configuration/parameters.html
+model_options:
+  test_size: 0.2
+  random_state: 3
+  param_grid:
+    alpha: [0.01, 0.1, 1.0, 10.0]
+    fit_intercept: [True, False]
+  cv: 5
+  features:
+    - Currency
+    - Condition
+    - Vehicle_brand
+    - Vehicle_model
+    - Vehicle_version
+    - Vehicle_generation
+    - Production_year
+    - Mileage_km
+    - Power_HP
+    - Displacement_cm3
+    - Fuel_type
+    - CO2_emissions
+    - Drive
+    - Transmission
+    - Type
+    - Doors_number
+    - Colour
