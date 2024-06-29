@@ -145,5 +145,5 @@ with KedroSession.create(project_path=project_path) as session:
 
     if st.button('Predict Price'):
         # Wykonaj predykcję
-        price = predict_price(input_data) *-1
+        price = predict_price(input_data)
         st.write(f'The predicted price of the car is: {price}')
